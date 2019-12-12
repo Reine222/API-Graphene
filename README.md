@@ -271,7 +271,12 @@ graphene Django
             # as we begin to add more apps to our project
             pass
 
-        schema = graphene.Schema(query=Query)
+        class Mutation(api.schema.RelayMutation, graphene.ObjectType):
+            # This class will inherit from multiple Queries
+            # as we begin to add more apps to our project
+            pass
+
+        schema = graphene.Schema(query=Query, mutation=Mutation)
 
 
 # Etape 6 :  dans le urls.py du projet 
