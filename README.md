@@ -1,6 +1,8 @@
 # API-Graphene
 graphene Django
 
+## CSRF graphql
+    https://github.com/graphql-python/graphene-django/issues/61
 # Soit les tables suivantes et le model suivant :
     Categorie, Article, Commentaire, Tag, Comment
     
