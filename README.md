@@ -3,6 +3,8 @@ graphene Django
 
 ## CSRF graphql
     https://github.com/graphql-python/graphene-django/issues/61
+## condition sur les Query graphql
+    https://hasura.io/docs/1.0/graphql/manual/queries/query-filters.html
 # Soit les tables suivantes et le model suivant :
     Categorie, Article, Commentaire, Tag, Comment
     
