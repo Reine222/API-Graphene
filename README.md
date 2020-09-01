@@ -259,7 +259,7 @@ graphene Django
 # Etape 4 :
 
       GRAPHENE = {
-          'SCHEMA': 'cookbook.schema.schema'
+          'SCHEMA': 'projet.schema.schema'
       }
 
 
@@ -277,7 +277,7 @@ graphene Django
             # as we begin to add more apps to our project
             pass
 
-        class Mutation(api.schema.RelayMutation, graphene.ObjectType):
+        class Mutation(apply.schema.RelayMutation, graphene.ObjectType):
             # This class will inherit from multiple Queries
             # as we begin to add more apps to our project
             pass
@@ -291,7 +291,7 @@ graphene Django
       from django.contrib import admin
 
       from graphene_django.views import GraphQLView
-      from projet.schema import schema
+      from apply.schema import schema
 
 
       urlpatterns = [
