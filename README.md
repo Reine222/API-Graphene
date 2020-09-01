@@ -291,7 +291,7 @@ graphene Django
       from django.contrib import admin
 
       from graphene_django.views import GraphQLView
-      from apply.schema import schema
+      from projet.schema import schema
 
 
       urlpatterns = [
